@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+.bz-light-red {
+    background-color: #ff00002b;
+}
+@media screen and (max-width: 992px){
+    .header-btn {
+        margin-left: 0 !important;
+    }
+    .banner-img {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .footer > ul > li {
+        text-align: center !important;
+    }
+}
